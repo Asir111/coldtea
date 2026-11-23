@@ -1,0 +1,14 @@
+{
+  "name": "wui-cheung-tong-chen-bo",
+  "version": "0.10.0",
+  "private": true,
+  "description": "回春堂涼茶 · 陳伯 AI — 粵語涼茶文化問診演示（角色扮演 + RAG + 安全護欄）",
+  "license": "MIT",
+  "keywords": ["cantonese", "herbal-tea", "llm", "rag", "safety", "education"],
+  "scripts": {
+    "dev": "python3 scripts/dev.py",
+    "build": "python3 scripts/build.py",
+    "test": "python3 tests/test_data.py"
+  },
+  "engines": { "node": ">=18" }
+}
